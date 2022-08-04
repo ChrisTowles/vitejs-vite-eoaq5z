@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "aws-sdk": "^2.1188.0",
-    "vite": "^3.0.4"
+    "vite": "3.0.4"
   }
 }
