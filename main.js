@@ -6,10 +6,11 @@ import AWS from 'aws-sdk';
 
 var s3 = new AWS.S3({apiVersion: '2006-03-01', region: 'us-east-1'});
 
-console.log(s3);
 
 document.querySelector('#app').innerHTML = `
   <div>
+  
+    <h2>s3.endpoint.href: ${s3.endpoint.href}</h1>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
